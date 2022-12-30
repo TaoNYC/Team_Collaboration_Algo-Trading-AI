@@ -15,7 +15,7 @@ def choose_ai_bot(bot_types, symbol):
         
         # Set the API endpoint and the API key
         endpoint = "https://api.iextrading.com/1.0/stock/{symbol}/quote"
-        api_key = "pk_test_abcdefghijklmnopqrstuvwxyz"
+        api_key = "YOUR_API_KEY_HERE"
         
         # Set the headers for the request
         headers = {
